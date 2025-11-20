@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Saif Hatab Portfolio"/>
+    <meta property="og:description" content="Welcome to Saif Hatab's portfolio website, showcasing my skills and projects as a Frontend Developer."/>
+    <meta property="og:image" content="images/logo.jpeg"/>
+    <meta property="og:type" content="website"/>
+    <link rel="icon" href="images/logo.jpeg" type="image/jpeg">
+    <title>Saif Hatab</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+<header class="header">
+        <a href="#home" class="logo">SAIF</a>
+
+        <i class='bx  bx-menu' id="menu-icon"></i> 
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Saif Hatab</h1>
+            <h3>I'm a <span>Frontend Developer</span></h3>
+            <p>I’m a Frontend Developer who builds clean, responsive, and user-friendly web interfaces using modern web technologies. I love creating smooth, engaging digital experiences.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+    <!-- about section design -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I’m a dedicated Frontend Developer who enjoys transforming ideas into intuitive and visually appealing interfaces. With a focus on clean code, performance, and great user experience, I’m always working to improve my skills and stay up-to-date with modern web technologies.</p>
+        </div>
+     </section>
+    <!-- services section design -->
+     <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML</h3>
+                <p>I use HTML to build the structure of web pages, ensuring clean, accessible, and well-organized layouts that serve as the foundation for every project.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>CSS</h3>
+                <p>I style and design responsive, visually appealing interfaces using CSS, focusing on modern layouts, animations, and smooth user experiences.</p>
+                
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-javascript' ></i>
+                <h3>Javascript</h3>
+                <p>I use JavaScript to bring websites to life, creating dynamic features, interactive elements, and seamless functionality for users.</p>
+                
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-python' ></i>
+                <h3>Python</h3>
+                <p>I use Python specifically for machine learning, working with popular libraries to analyze data, build predictive models, and develop intelligent systems.</p>
+                
+            </div>
+        </div>
+     </section>
+    <!-- portfolio section design -->
+     <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>sunshinecouture</h4>
+                    <p>website for a clothing brand</p>
+                    <a href="https://sunshinecouture.netlify.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Mohamed</h4>
+                    <p>website using HTML, CSS and javascript</p>
+                    <a href="https://mohamedalshafeai.netlify.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>first project</h4>
+                    <p>First project that i have ever created</p>
+                    <a href="https://saif-hatab-portfolio.netlify.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- contact section design -->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form id="contact-form" action="#">
+            <div class="input-box">
+                <input name="full_name" type="text" placeholder="Full Name">
+                <input name="email_address" type="email" placeholder="Email Adress">
+            </div>
+            <div class="input-box">
+                <input name="mobile_number" type="number" placeholder="Mobile Number">
+                <input name="subject" type="text" placeholder="Subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </section>
+    <!-- footer design -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Saifhatab | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-chevron-up'></i></a>
+        </div>
+     </footer>
+
+
+    <!-- custom js -->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
